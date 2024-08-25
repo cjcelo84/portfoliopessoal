@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Pessoal</title>
+
+    <style>
+        /*Marcelo Cardoso de Jesus / Meu Portfólio*/
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        /*Cabeçalho, tamanho e cor de fundo*/
+        header {
+            background-color: #333; /*cor de fundo*/
+            color: white;/*cor do texto*/
+            padding: 10px 0;
+            text-align: center; /*Centraliza horizontalmente o conteúdo de texto*/
+        }
+
+        /*Cabeçalho, tirar o sublinhado e marcadores dos links no cabeçalho*/
+        header nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        /*Alinhamento dos links do cabeçalho*/
+        header nav ul li {
+            display: inline; /*faz com que os elementos sejam exibidos na mesma linha*/
+            margin: 0 55px; /*define e espaçamento de cada item da lista*/
+        }
+
+        /*Sobre mim, Formação, Portfólio, Contato*/
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        /*tamanho dos quadrados cinza do rodapé */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 0px;
+        }
+
+        /*Alinhamento da imagem e textos*/
+        .imagem-marcelo {
+            display: flex; /* Define o layout como flexível */
+            align-items: center; /* Alinha itens verticalmente no centro */
+        }
+
+        /*Definição das medidas da imagem*/
+        .imagem-marcelo img {
+            width: 400px; /* Define a largura da imagem */
+            height: auto; /* Mantém a proporção da imagem */
+            margin-right: 20px; /* Espaço entre a imagem e o texto */
+            padding: 70px; /* Distancia da margem da tela*/
+            border-radius: 100px;/* Arredondamento das pontas*/
+        }
+
+        /*Definição o tamanho do espaço do texto*/
+        .texto {
+            max-width: 900px; /* Limita a largura do texto para que não ocupe muito espaço */
+            text-align: justify; /* Alinha o texto para que ocupe toda a largura do contêiner */
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+
+        <!--Titulo e subtitulo-->
+        <h1>Marcelo Cardoso de Jesus</h1> 
+        <h2>Meu Portfólio</h2>
+
+        <!--Links-->
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="formação.html">Formação</a></li>
+                <li><a href="portfolio.html">Portfólio</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Imagem e texto-->
+    <div class="imagem-marcelo">
+        <img src="imagem_1.jpeg">
+        <div class="texto">
+            <h2>Formação Acadêmica</h2>
+
+            <p><strong>Centro Universitário Internacional</strong> - Superior de Tecnologia (CST), Tecnologia em Análise e Desenvolvimento de Sistemas · (janeiro de 2024 - agosto de 2026)</p>
+
+            <p><strong>Universidade Paulista</strong> - Curso Superior de Tecnologia (CST), Tecnólogo em Criação e Produção Gráfica Digital · (janeiro de 2005 - agosto de 2007)</p>
+
+            <p><strong>Google</strong> - Google Cloud Computing Foundations ACADEMY · (maio de 2024)</p>
+
+            <p><strong>Ada Tech</strong> - Trilha Digital | Codres 24 | Data Science · (junho de 2024)</p>
+
+            <p><strong>Universidade de São Paulo</strong> - Inteligência Artificial · (junho de 2024)</p>
+
+        </div>
+    </div>
+
+    <!--Rodapé-->
+    <footer>
+        <p>© 2024 Meu Portfólio Pessoal. Todos os direitos reservados.</p>
+    </footer>    
+
+</body>
+</html>

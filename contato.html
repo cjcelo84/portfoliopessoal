@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Pessoal</title>
+
+    <style>
+        /*Marcelo Cardoso de Jesus / Meu Portfólio*/
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        /*Cabeçalho, tamanho e cor de fundo*/
+        header {
+            background-color: #333; /*cor de fundo*/
+            color: white;/*cor do texto*/
+            padding: 10px 0;
+            text-align: center; /*Centraliza horizontalmente o conteúdo de texto*/
+        }
+
+        /*Cabeçalho, tirar o sublinhado e marcadores dos links no cabeçalho*/
+        header nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        /*Alinhamento dos links do cabeçalho*/
+        header nav ul li {
+            display: inline; /*faz com que os elementos sejam exibidos na mesma linha*/
+            margin: 0 55px; /*define e espaçamento de cada item da lista*/
+        }
+
+        /*Sobre mim, Formação, Portfólio, Contato*/
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .container {
+            display: flex;
+            width: 80%;
+            max-width: 800px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 0 auto; /* Centraliza a container horizontalmente */
+            margin-top: 50px; /* Adiciona espaço acima da container */
+            margin-bottom: 10px; /* Adiciona espaço abaixo da container */
+        }
+
+        .contato, .formulario-container {
+            flex: 1;
+            padding: 20px;
+        }
+        .contato {
+            border-right: 1px solid #ddd;
+        }
+        input, textarea {
+            width: 80%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        button {
+            padding: 10px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        footer {/*tamanho dos quadrados cinza do rodapé */
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 40px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Marcelo Cardoso de Jesus</h1>
+        <h2>Meu Portfólio</h2>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="formação.html">Formação</a></li>
+                <li><a href="portfolio.html">Portfólio</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="contato">
+            <h2>Contato</h2>
+            <p><strong>Email:</strong> cjcelo84@gmail.com</p><!--Strong é o negrito-->
+            <p><strong>Telefone:</strong> (11) 99634-4903</p><!--Strong é o negrito-->
+        </div>
+        
+        <div class="formulario-container">
+            <h2>Formulário de Contato</h2>
+            <form>
+                <input type="text" name="nome" placeholder="Nome">
+                <input type="email" name="email" placeholder="Email">
+                <textarea name="mensagem" placeholder="Mensagem" rows="5"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2024 Meu Portfólio Pessoal. Todos os direitos reservados.</p>
+    </footer>    
+
+</body>
+</html>
